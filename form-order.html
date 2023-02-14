@@ -27,7 +27,7 @@
           <div class="d-flex">
             <!-- LOGO -->
             <div class="navbar-brand-box">
-              <a href="index.html" class="logo logo-dark">
+              <a href="admin-central.html" class="logo logo-dark">
                 <span class="logo-sm">
                   <img src="assets/images/logo.svg" alt="" height="22" />
                 </span>
@@ -36,7 +36,7 @@
                 </span>
               </a>
 
-              <a href="index.html" class="logo logo-light">
+              <a href="admin-central.html" class="logo logo-light">
                 <span class="logo-sm">
                   <img src="assets/images/logo-light.svg" alt="" height="22" />
                 </span>
@@ -71,10 +71,6 @@
             </div>
 
             <div class="dropdown d-inline-block">
-              <button type="button" class="btn header-item noti-icon waves-effect" id="page-header-notifications-dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <i class="bx bx-bell bx-tada"></i>
-                <span class="badge bg-danger rounded-pill">3</span>
-              </button>
               <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end p-0" aria-labelledby="page-header-notifications-dropdown">
                 <div class="p-3">
                   <div class="row align-items-center">
@@ -154,7 +150,7 @@
             <div class="dropdown d-inline-block">
               <button type="button" class="btn header-item waves-effect" id="page-header-user-dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <img class="rounded-circle header-profile-user" src="assets/images/users/avatar-1.jpg" alt="Header Avatar" />
-                <span class="d-none d-xl-inline-block ms-1" key="t-henry">Admin Kitchen</span>
+                <span class="d-none d-xl-inline-block ms-1" key="t-henry">User Zona A</span>
                 <i class="mdi mdi-chevron-down d-none d-xl-inline-block"></i>
               </button>
               <div class="dropdown-menu dropdown-menu-end">
@@ -164,7 +160,7 @@
                 <a class="dropdown-item d-block" href="#"><span class="badge bg-success float-end">11</span><i class="bx bx-wrench font-size-16 align-middle me-1"></i> <span key="t-settings">Settings</span></a>
                 <a class="dropdown-item" href="#"><i class="bx bx-lock-open font-size-16 align-middle me-1"></i> <span key="t-lock-screen">Lock screen</span></a>
                 <div class="dropdown-divider"></div> -->
-                <a class="dropdown-item text-danger" href="#"><i class="bx bx-power-off font-size-16 align-middle me-1 text-danger"></i> <span key="t-logout">Logout</span></a>
+                <a class="dropdown-item text-danger" href="index.html"><i class="bx bx-power-off font-size-16 align-middle me-1 text-danger"></i> <span key="t-logout">Logout</span></a>
               </div>
             </div>
 
@@ -193,33 +189,7 @@
                 </a>
               </li>
 
-              <li>
-                <a href="admin-central.html" class="waves-effect">
-                  <i class="dripicons-store"></i>
-                  <span key="t-pengiriman">Admin Central</span>
-                </a>
-              </li>
 
-              <li>
-                <a href="index.html" class="waves-effect">
-                  <i class="bx bx-home-circle"></i>
-                  <span key="t-pengiriman">Kitchen</span>
-                </a>
-              </li>
-
-              <li>
-                <a href="pengiriman.html" class="waves-effect">
-                  <i class="bx bx-package"></i>
-                  <span key="t-pengiriman">Pengiriman</span>
-                </a>
-              </li>
-
-              <!-- <li>
-                <a href="warehouse.html" class="waves-effect">
-                  <i class="fas fa-warehouse"></i>
-                  <span key="t-pengiriman">Warehouse</span>
-                </a>
-              </li> -->
             </ul>
           </div>
           <!-- Sidebar -->
@@ -263,24 +233,27 @@
                       </div>
                     </div>
                     <div class="mb-3 row">
-                      <label for="example-text-input" class="col-md-2 col-form-label">Nama Pemesan PIC</label>
+                      <label for="example-text-input" class="col-md-2 col-form-label">Name PIC</label>
                       <div class="col-md-10">
-                        <input class="form-control" type="text" value="Artisanal kale" id="example-text-input" />
+                       <div class="font-size-12 text-muted">
+                          <p class="mb-1" key="t-grammer">Muhammad Fajar</p>
+                        </div>
                       </div>
                     </div>
                     <div class="mb-3 row">
-                      <label for="example-date-input" class="col-md-2 col-form-label">Tanggal Pesan</label>
-                      <div class="col-md-10">
-                        <input class="form-control" type="date" value="2019-08-19" id="example-date-input" />
-                      </div>
-                    </div>
-                    <div class="mb-3 row">
-                      <label for="example-date-input" class="col-md-2 col-form-label">Tanggal Antar</label>
+                      <label for="example-date-input" class="col-md-2 col-form-label">Order Date</label>
                       <div class="col-md-10">
                         <input class="form-control" type="date" value="2019-08-19" id="example-date-input" />
                       </div>
                     </div>
-                    <div class="mb-3 row">
+                    <!-- <div class="mb-3 row">
+                      <label for="example-date-input" class="col-md-2 col-form-label">Order Deliver</label>
+                      <div class="col-md-10">
+                        <input class="form-control" type="date" value="2019-08-19" id="example-date-input" />
+                      </div>
+                    </div> -->
+
+                    <!-- <div class="mb-3 row">
                       <label for="example-search-input" class="col-md-2 col-form-label">Jam Pemesanan</label>
                       <div class="col-md-1 mt-1">
                         <div class="form-check">
@@ -354,28 +327,136 @@
                           </div>
                         </div>
                       </div>
-                    </div>
+                    </div> -->
+
                     <div class="mb-3 row">
-                      <label class="col-md-2 col-form-label">Menu</label>
-                      <div class="col-md-10">
-                        <!-- <select class="form-select">
-                          <option>Nasi Uduk</option>
-                          <option>Nasi Rames</option>
-                          <option>Sate Ayam</option>
-                        </select> -->
-                        <textarea required="" class="form-control" rows="3"></textarea>
+                       <label for="example-date-input" class="col-md-2 col-form-label">Time</label>
+                     <div class="col-md-10">
+                       <div class="chat-leftsidebar-nav">
+                          <ul class="nav nav-pills nav-justified">
+                               <li class="nav-item">
+                                  <a href="#pagi" data-bs-toggle="tab" aria-expanded="false" class="nav-link">
+                                      <div class="form-check">
+                                      <label class="form-check-label text-warning" for="formRadiosiang"> Pagi </label>
+                                  </a>
+                              </li>
+                              <li class="nav-item">
+                                  <a href="#siang" data-bs-toggle="tab" aria-expanded="false" class="nav-link">
+                                      <div class="form-check">
+                                      <label class="form-check-label text-success" for="formRadiosiang"> Siang </label>
+                                  </a>
+                              </li>
+                              <li class="nav-item">
+                                  <a href="#malam" data-bs-toggle="tab" aria-expanded="false" class="nav-link">
+                                      <div class="form-check">
+                                        <label class="form-check-label text-dark" for="formRadiomalam"> Malam </label>
+                                  </a>
+                              </li>
+                              <li class="nav-item">
+                                  <a href="#sapper" data-bs-toggle="tab" aria-expanded="false" class="nav-link">
+                                      <div class="form-check">
+                                        <label class="form-check-label text-danger" for="formRadiomalam"> Sapper </label>
+                                  </a>
+                              </li>
+                          
+                          </ul>
+                          <div class="tab-content py-4">
+                              <div class="tab-pane show active" id="pagi">
+                                    <div class="col-xl-3 col-sm-6">
+                                      <div class="card text-center">
+                                        <div class="card-body" style="background-color: #f7f7f7;">
+                                          <p class="text-muted">
+                                            <ul>
+                                              <li>Nasi</li>
+                                              <li>Ayam Goreng</li>
+                                              <li>Sayur Asem</li>
+                                              <li>Tahu Tempe</li>
+                                              <li>Sambel & Krupuk</li>
+                                            </ul>
+                                          </p>
+                                        </div>
+                                      </div>
+                                    </div>
+                              </div>
+
+                              <div class="tab-pane" id="siang">
+                                  <div>
+                                          <div class="col-xl-3 col-sm-6 offset-md-3 offset-xl-3">
+                                          <div class="card text-center">
+                                            <div class="card-body" style="background-color: #f7f7f7;">
+                                              <p class="text-muted">
+                                                <ul>
+                                                  <li>Nasi</li>
+                                                  <li>Ayam Bakar</li>
+                                                  <li>Sayur Nangka</li>
+                                                  <li>Telur Balado</li>
+                                                  <li>Sambel & Krupuk</li>
+                                                </ul>
+                                              </p>
+                                            </div>
+                                          </div>
+                                          </div>
+                                  </div>
+                              </div>
+
+                              <div class="tab-pane" id="malam">
+                                  <div class="col-xl-3 col-sm-6 offset-md-4 offset-xl-4 offset-md-6 offset-xl-6">
+                                        <div class="card text-center">
+                                          <div class="card-body" style="background-color: #f7f7f7;">
+                                            <p class="text-muted">
+                                              <ul>
+                                                <li>Nasi Goreng</li>
+                                                <li>Krupuk</li>
+                                                <li>Buah - buahan</li>
+                                                <li>Puding</li>
+                                                <li>Sambel</li>
+                                              </ul>
+                                            </p>
+                                          </div>
+                                        </div>
+                                    </div>
+                              </div>
+
+                              <div class="tab-pane" id="sapper">
+                                  <div class="col-xl-3 col-sm-6 offset-md-9 offset-xl-9">
+                                        <div class="card text-center">
+                                          <div class="card-body" style="background-color: #f7f7f7;">
+                                            <p class="text-muted">
+                                              <ul>
+                                                <li>Nasi Putih</li>
+                                                <li>Ayam pop</li>
+                                                <li>Tahu & Tempe</li>
+                                                <li>Perkedel</li>
+                                                <li>Lalapan</li>
+                                              </ul>
+                                            </p>
+                                          </div>
+                                        </div>
+                                    </div>
+                              </div>
+                              
+                          </div>
                       </div>
+                     </div>
                     </div>
+
                     <div class="mb-3 row">
                       <label for="example-tel-input" class="col-md-2 col-form-label">Telephone</label>
                       <div class="col-md-10">
-                        <input class="form-control" type="tel" value="1-(555)-555-5555" placeholder="Enter Telephone" id="example-tel-input" />
+                        <input class="form-control" type="tel" value="081288820099" placeholder="Enter Telephone" id="example-tel-input" />
                       </div>
                     </div>
                     <div class="mb-3 row">
-                      <label for="example-number-input" class="col-md-2 col-form-label">Jumlah Pesan</label>
+                      <label for="example-number-input" class="col-md-2 col-form-label">Total Pax</label>
                       <div class="col-md-10">
-                        <input class="form-control" type="number" value="42" placeholder="Enter Number" id="example-number-input" />
+                        <input class="form-control" type="number" value="1" placeholder="Enter Number" id="example-number-input" />
+                      </div>
+                    </div>
+
+                     <div class="mb-3 row">
+                      <label for="example-number-input" class="col-md-2 col-form-label">Harga</label>
+                      <div class="col-md-10">
+                        <input class="form-control" type="text" value="xxxxx" placeholder="Catatan" id="example-number-input" />
                       </div>
                     </div>
                     <!-- <div class="mb-3 row">
@@ -386,7 +467,7 @@
                     </div> -->
 
                     <div class="mb-3 row">
-                      <label for="example-number-input" class="col-md-2 col-form-label">Catatan</label>
+                      <label for="example-number-input" class="col-md-2 col-form-label">Note</label>
                       <div class="col-md-10">
                         <input class="form-control" type="text" placeholder="Catatan" id="example-number-input" />
                       </div>
