@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Invoice Detail | DBS Kitchen</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
+    <meta content="Themesbrand" name="author" />
+    <!-- App favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico" />
+
+    <!-- Bootstrap Css -->
+    <link href="assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
+    <!-- Icons Css -->
+    <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+    <!-- App Css-->
+    <link href="assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body data-sidebar="dark" data-layout-mode="light">
+    <!-- <body data-layout="horizontal" data-topbar="dark"> -->
+
+    <!-- Begin page -->
+    <div id="layout-wrapper">
+      <header id="page-topbar">
+        <div class="navbar-header">
+          <div class="d-flex">
+            <button type="button" class="btn btn-sm px-3 font-size-16 header-item waves-effect" id="vertical-menu-btn">
+              <i class="fa fa-fw fa-bars"></i>
+            </button>
+          </div>
+
+          <div class="d-flex">
+            <div class="dropdown d-inline-block d-lg-none ms-2">
+              <button type="button" class="btn header-item noti-icon waves-effect" id="page-header-search-dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="mdi mdi-magnify"></i>
+              </button>
+              <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end p-0" aria-labelledby="page-header-search-dropdown">
+                <form class="p-3">
+                  <div class="form-group m-0">
+                    <div class="input-group">
+                      <input type="text" class="form-control" placeholder="Search ..." aria-label="Recipient's username" />
+                      <div class="input-group-append">
+                        <button class="btn btn-primary" type="submit"><i class="mdi mdi-magnify"></i></button>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+
+            <div class="dropdown d-inline-block">
+              <button type="button" class="btn header-item waves-effect" id="page-header-user-dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <img class="rounded-circle header-profile-user" src="assets/images/users/avatar-1.jpg" alt="Header Avatar" />
+                <span class="d-none d-xl-inline-block ms-1" key="t-henry">Henry</span>
+                <i class="mdi mdi-chevron-down d-none d-xl-inline-block"></i>
+              </button>
+              <div class="dropdown-menu dropdown-menu-end">
+                <!-- item-->
+                <a class="dropdown-item" href="#"><i class="bx bx-user font-size-16 align-middle me-1"></i> <span key="t-profile">Profile</span></a>
+                <a class="dropdown-item" href="#"><i class="bx bx-wallet font-size-16 align-middle me-1"></i> <span key="t-my-wallet">My Wallet</span></a>
+                <a class="dropdown-item d-block" href="#"><span class="badge bg-success float-end">11</span><i class="bx bx-wrench font-size-16 align-middle me-1"></i> <span key="t-settings">Settings</span></a>
+                <a class="dropdown-item" href="#"><i class="bx bx-lock-open font-size-16 align-middle me-1"></i> <span key="t-lock-screen">Lock screen</span></a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item text-danger" href="#"><i class="bx bx-power-off font-size-16 align-middle me-1 text-danger"></i> <span key="t-logout">Logout</span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- ========== Left Sidebar Start ========== -->
+
+      <!-- Left Sidebar End -->
+
+      <!-- ============================================================== -->
+      <!-- Start right Content here -->
+      <!-- ============================================================== -->
+      <div class="#">
+        <div class="page-content">
+          <div class="container-fluid">
+            <!-- start page title -->
+            <div class="row">
+              <div class="col-12">
+                <div class="page-title-box d-sm-flex align-items-center justify-content-between">
+                  <h4 class="mb-sm-0 font-size-18">Detail</h4>
+
+                  <div class="page-title-right">
+                    <ol class="breadcrumb m-0">
+                      <li class="breadcrumb-item"><a href="javascript: void(0);">Invoices</a></li>
+                      <li class="breadcrumb-item active">Detail</li>
+                    </ol>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end page title -->
+
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="invoice-title">
+                      <h4 class="float-end font-size-16">Invoice#PO25405</h4>
+                      <div class="mb-4">
+                        <img src="assets/images/dbs-logo.png" alt="logo" height="60" />
+                      </div>
+                    </div>
+                    <hr />
+                    <div class="row">
+                      <div class="col-sm-6">
+                        <address>
+                          <strong>Billed To:</strong><br />
+                          xxx.xxxx<br />
+                        </address>
+                      </div>
+                      <div class="col-sm-6 text-sm-end">
+                        <address>
+                          <strong>Order Date:</strong><br />
+                          2 April , 2023
+                        </address>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-sm-6 mt-3">
+                        <!-- <address>
+                          <strong>Payment Method:</strong><br />
+                          Visa ending **** 4242<br />
+                          jsmith@email.com
+                        </address> -->
+                      </div>
+                      <div class="col-sm-6 mt-3 text-sm-end">
+                        <!-- <address>
+                          <strong>Order Date:</strong><br />
+                          October 16, 2019<br /><br />
+                        </address> -->
+                      </div>
+                    </div>
+                    <div class="py-2 mt-3">
+                      <h3 class="font-size-15 fw-bold">Order summary</h3>
+                    </div>
+                    <div class="table-responsive">
+                      <table class="table table-nowrap">
+                        <thead>
+                          <tr>
+                            <th style="width: 70px">No.</th>
+                            <th>Pax</th>
+                            <th>Price Porsi</th>
+                            <th class="text-end">Price</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>01</td>
+                            <td>400</td>
+                            <td>Rp 25.000</td>
+                            <td class="text-end">Rp 10.000.000</td>
+                          </tr>
+
+                          <!-- <tr>
+                            <td>02</td>
+                            <td>Skote - Landing Template</td>
+                            <td class="text-end">$399.00</td>
+                          </tr>
+
+                          <tr>
+                            <td>03</td>
+                            <td>Veltrix - Admin Dashboard Template</td>
+                            <td class="text-end">$499.00</td>
+                          </tr>
+                          <tr>
+                            <td colspan="2" class="text-end">Sub Total</td>
+                            <td class="text-end">$1397.00</td>
+                          </tr> -->
+
+                          <tr>
+                            <td></td>
+                            <td colspan="2" class="border-0 text-end">
+                              <strong>Total</strong>
+                            </td>
+                            <td class="border-0 text-end"><h4 class="m-0">Rp 10.000.000</h4></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <div class="d-print-none">
+                      <div class="float-end">
+                        <a href="javascript:window.print()" class="btn btn-success waves-effect waves-light me-1"><i class="fa fa-print"></i></a>
+                        <!-- <a href="javascript: void(0);" class="btn btn-primary w-md waves-effect waves-light">Send</a> -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end row -->
+          </div>
+          <!-- container-fluid -->
+        </div>
+        <!-- End Page-content -->
+      </div>
+      <!-- end main content-->
+    </div>
+    <!-- END layout-wrapper -->
+
+    <!-- Right Sidebar -->
+    <div class="right-bar">
+      <div data-simplebar class="h-100">
+        <div class="rightbar-title d-flex align-items-center px-3 py-4">
+          <h5 class="m-0 me-2">Settings</h5>
+
+          <a href="javascript:void(0);" class="right-bar-toggle ms-auto">
+            <i class="mdi mdi-close noti-icon"></i>
+          </a>
+        </div>
+
+        <!-- Settings -->
+        <hr class="mt-0" />
+        <h6 class="text-center mb-0">Choose Layouts</h6>
+
+        <div class="p-4">
+          <div class="mb-2">
+            <img src="assets/images/layouts/layout-1.jpg" class="img-thumbnail" alt="layout images" />
+          </div>
+
+          <div class="form-check form-switch mb-3">
+            <input class="form-check-input theme-choice" type="checkbox" id="light-mode-switch" checked />
+            <label class="form-check-label" for="light-mode-switch">Light Mode</label>
+          </div>
+
+          <div class="mb-2">
+            <img src="assets/images/layouts/layout-2.jpg" class="img-thumbnail" alt="layout images" />
+          </div>
+          <div class="form-check form-switch mb-3">
+            <input class="form-check-input theme-choice" type="checkbox" id="dark-mode-switch" />
+            <label class="form-check-label" for="dark-mode-switch">Dark Mode</label>
+          </div>
+
+          <div class="mb-2">
+            <img src="assets/images/layouts/layout-3.jpg" class="img-thumbnail" alt="layout images" />
+          </div>
+          <div class="form-check form-switch mb-3">
+            <input class="form-check-input theme-choice" type="checkbox" id="rtl-mode-switch" />
+            <label class="form-check-label" for="rtl-mode-switch">RTL Mode</label>
+          </div>
+
+          <div class="mb-2">
+            <img src="assets/images/layouts/layout-4.jpg" class="img-thumbnail" alt="layout images" />
+          </div>
+          <div class="form-check form-switch mb-5">
+            <input class="form-check-input theme-choice" type="checkbox" id="dark-rtl-mode-switch" />
+            <label class="form-check-label" for="dark-rtl-mode-switch">Dark RTL Mode</label>
+          </div>
+        </div>
+      </div>
+      <!-- end slimscroll-menu-->
+    </div>
+    <!-- /Right-bar -->
+
+    <!-- Right bar overlay-->
+    <div class="rightbar-overlay"></div>
+
+    <!-- JAVASCRIPT -->
+    <script src="assets/libs/jquery/jquery.min.js"></script>
+    <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/libs/metismenu/metisMenu.min.js"></script>
+    <script src="assets/libs/simplebar/simplebar.min.js"></script>
+    <script src="assets/libs/node-waves/waves.min.js"></script>
+
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>

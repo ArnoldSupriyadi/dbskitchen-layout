@@ -29,16 +29,16 @@
             <div class="navbar-brand-box">
               <a href="admin-central.html" class="logo logo-dark">
                 <span class="logo-sm">
-                  <img src="assets/images/logo.svg" alt="" height="22" />
+                  <img src="assets/images/dbs-logo.pngg" alt="" height="22" />
                 </span>
                 <span class="logo-lg">
-                  <img src="assets/images/logo-dark.png" alt="" height="17" />
+                  <img src="assets/images/dbs-logo.png" alt="" height="17" />
                 </span>
               </a>
 
               <a href="admin-central.html" class="logo logo-light">
                 <span class="logo-sm">
-                  <img src="assets/images/logo-light.svg" alt="" height="22" />
+                  <img src="assets/images/dbs-logo.png" alt="" height="22" />
                 </span>
                 <span class="logo-lg">
                   <img src="assets/images/dbs-logo.png" alt="" height="60" />
@@ -265,8 +265,11 @@
                           <th scope="col">Menu</th>
                           <th scope="col">Price Porsi</th>
                           <th scope="col">Total Price</th>
+                          <th scope="col">Service Time</th>
                           <th scope="col">Note</th>
                           <th scope="col">Status</th>
+                          <th scope="col">Invoice</th>
+                          <th scope="col">Action</th>
                         </tr>
                       </thead>
                       <tbody>
@@ -277,7 +280,7 @@
                           <td><span class="badge badge-soft-danger">04 June 2023</span></td>
                           <td>400</td>
                           <td>
-                            <ul class="text-primary">
+                            <ul class="text-primary font-size-12">
                               <li>Nasi Putih</li>
                               <li>Ayam pop</li>
                               <li>Tahu & Tempe</li>
@@ -287,11 +290,19 @@
                           </td>
                           <td><span class="badge badge-soft-success">Rp 25.000</span></td>
                           <td><span class="badge badge-soft-success">Rp 10.000.000</span></td>
+                          <td><span class="badge badge-soft-warning">Pagi</span></td>
                           <td>
-                            <h5><span class="badge badge-soft-warning">Tidak Pedas</span></h5>
+                            <span class="badge badge-soft-warning">Tidak Pedas</span>
                           </td>
                           <td>
                             <button type="button" class="btn btn-success waves-effect waves-light"><i class="bx bx-check-double font-size-16 align-middle me-2"></i> Finish</button>
+                          </td>
+                          <td><a href="invoices.html" target="_blank" class="d-block text-primary text-decoration-underline mb-2">Invoice#PO2540</a></td>
+                          <td>
+                            <div class="d-flex gap-3">
+                              <a href="javascript:void(0);" class="text-success"><i class="mdi mdi-pencil font-size-18"></i></a>
+                              <a href="javascript:void(0);" class="text-danger"><i class="mdi mdi-delete font-size-18"></i></a>
+                            </div>
                           </td>
                         </tr>
                         <tr>
@@ -301,7 +312,7 @@
                           <td><span class="badge badge-soft-danger">08 June 2023</span></td>
                           <td>620</td>
                           <td>
-                            <ul class="text-primary">
+                            <ul class="text-primary font-size-12">
                               <li>Nasi Putih</li>
                               <li>Ayam pop</li>
                               <li>Tahu & Tempe</li>
@@ -312,11 +323,27 @@
                           <td><span class="badge badge-soft-success">Rp 25.000</span></td>
                           <td><span class="badge badge-soft-success">Rp 15.625.000</span></td>
                           <td>
-                            <h5><span class="badge badge-soft-warning">Pedas</span></h5>
+                            <span class="badge badge-soft-warning">Sapper</span>
+                          </td>
+                          <td>
+                            <span class="badge badge-soft-warning">Pedas</span>
                           </td>
                           <td>
                             <button type="button" class="btn btn-info waves-effect"><i class="bx bx-hourglass bx-spin font-size-16 align-middle me-2"></i> Proses</button>
                           </td>
+                          <td><a href="invoices.html" target="_blank" class="d-block text-primary text-decoration-underline mb-2">Invoice#PO2540</a></td>
+                          <td>
+                            <div class="d-flex gap-3">
+                              <a href="javascript:void(0);" class="text-success"><i class="mdi mdi-pencil font-size-18"></i></a>
+                              <a href="javascript:void(0);" class="text-danger"><i class="mdi mdi-delete font-size-18"></i></a>
+                            </div>
+                          </td>
+                          <!-- <td>
+                            <div class="d-flex gap-3">
+                              <button type="button" class="btn btn-success waves-effect waves-light"><i class="mdi mdi-pencil font-size-16 align-middle me-2"></i>Edit</button>
+                              <button type="button" class="btn btn-danger waves-effect waves-light"><i class="mdi mdi-trash-can d-block font-size-16"></i> Delete</button>
+                            </div>
+                          </td> -->
                         </tr>
                       </tbody>
                     </table>
@@ -384,7 +411,7 @@
                 © Skote.
               </div>
               <div class="col-sm-6">
-                <div class="text-sm-end d-none d-sm-block">Design & Develop by Themesbrand</div>
+                <div class="text-sm-end d-none d-sm-block">Design & Develop by DBS Kitchen</div>
               </div>
             </div>
           </div>
