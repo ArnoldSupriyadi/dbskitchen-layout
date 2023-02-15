@@ -328,14 +328,59 @@
                         </div>
                       </div>
                     </div> -->
+                    
                     <div class="mb-3 row">
                       <label for="example-date-input" class="col-md-2 col-form-label">Time</label>
                       <div class="col-md-10">
-                        <select class="form-select">
-                          <option>Pagi</option>
-                          <option>Siang</option>
-                          <option>Malam</option>
-                          <option>Sapper</option>
+                        <select id="box1" class="form-select">
+                          <option value="pagi">Pagi</option>
+                          <option value="siang">Siang</option>
+                          <option value="malam">Malam</option>
+                          <option value="sapper">Sapper</option>
+                        </select>
+                      </div>
+                    </div>
+                    
+                    <div class="mb-3 row">
+                      <label for="example-date-input" class="col-md-2 col-form-label">Menu</label>
+                      <div class="col-md-10">
+                        <select  id="box2" class="form-select" aria-label="Disabled select example" disabled>
+                          <option value="pagi"> 
+                            <ul>
+                              <li>Nasi Putih,</li>
+                              <li>Ayam Goreng,</li>
+                              <li>Sayur Asem,</li>
+                              <li>Tahu Tempe,</li>
+                              <li>Sambel & Krupuk</li>
+                            </ul>
+                           </option>
+                          <option value="siang">
+                            <ul>
+                              <li>Nasi Puith,</li>
+                              <li>Ayam Bakar,</li>
+                              <li>Sayur Nangka,</li>
+                              <li>Telur Balado,</li>
+                              <li>Sambel & Krupuk</li>
+                            </ul>
+                          </option>
+                          <option value="malam">
+                            <ul>
+                              <li>Nasi Uduk,</li>
+                              <li>Ayam pop,</li>
+                              <li>Tahu & Tempe,</li>
+                              <li>Perkedel,</li>
+                              <li>Lalapan</li>
+                            </ul>
+                          </option>
+                          <option value="sapper">
+                            <ul>
+                              <li>Nasi Goreng,</li>
+                              <li>Tumisan Tahu,</li>
+                              <li>Pisang dan Apel,</li>
+                              <li>Krupuk,</li>
+                              <li>Sambal</li>
+                            </ul>
+                          </option>
                         </select>
                       </div>
                     </div>
@@ -799,5 +844,13 @@
     <script src="assets/libs/node-waves/waves.min.js"></script>
 
     <script src="assets/js/app.js"></script>
+
+    <script type='text/javascript'>
+
+    document.getElementById("box1").onchange = function(){
+    document.getElementById("box2").value = this.value;
+  };
+
+</script>
   </body>
 </html>
